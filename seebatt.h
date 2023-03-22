@@ -5,7 +5,7 @@
 #ifndef UNTITLED_SEEBATT_H
 #define UNTITLED_SEEBATT_H
 
-double seebatt(double d);
+double seebatt(double v);
 
 
 #endif //UNTITLED_SEEBATT_H

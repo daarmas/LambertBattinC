@@ -30,8 +30,8 @@ double dot(double v1[], double v2[], int n){
     return suma;
 }
 
-double* cross(double *v1, double *v2, int n){
-    double v[] = {};
-}
+//double* cross(double *v1, double *v2, int n){
+//    double v[] = {};
+//}
 
 

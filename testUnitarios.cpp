@@ -5,6 +5,7 @@
 #include <iostream>
 #include <cmath>
 #include "vector.h"
+#include "seebatt.h"
 
 using namespace std;
 
@@ -23,6 +24,12 @@ int main() {
         cout << "Dot Correcto" << endl;
     }else{
         cout << "Dot Incorrecto" << endl;
+    }
+
+    if((fabs(seebatt(3.76982021737918) - 8.03007718341174)) < pow(10,-12)){
+        cout<< "Test seebatt pasado" << endl;
+    } else{
+        cout<< "Test seebatt no pasado" << endl;
     }
 
     return 0;
