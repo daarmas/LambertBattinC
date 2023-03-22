@@ -11,6 +11,8 @@ double norm(double v[], int n);
 
 double dot(double v1[], double v2[], int n);
 
-double* cross(double *v1, double *v2, int n);
+void cross(double *v1, double *v2, double salida[]);
+
+bool iguales(double *v, double *u, int n);
 
 #endif //_NORM_
