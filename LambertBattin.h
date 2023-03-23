@@ -5,6 +5,8 @@
 #ifndef UNTITLED_LAMBERTBATTIN_H
 #define UNTITLED_LAMBERTBATTIN_H
 
-void
+#include <cstring>
+
+void LambertBattin(double ro[], double r[], char dm[], double Dtsec);
 
 #endif //UNTITLED_LAMBERTBATTIN_H
