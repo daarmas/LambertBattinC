@@ -6,6 +6,15 @@
 #include "seebatt.h"
 #include "seebattk.h"
 
+
+//# Inputs:         Description                    Range/Units
+//#   ro          - IJK Position vector 1          m
+//#   r           - IJK Position vector 2          m
+//#   dm          - direction of motion            'pro','retro'
+//#   Dtsec       - Time between ro and r          s
+//# Inputs/OutPuts: (ambos son parametros de salida que serán utilizados)
+//#   vo          - IJK Velocity vector            m/s
+//#   v           - IJK Velocity vector            m/s
 void LambertBattin(double *ro, double *r, char dm[], double Dtsec, double *vo, double *v) {
     double small = 0.000001;
     double mu = 3.986004418e14;   // m3/s2
